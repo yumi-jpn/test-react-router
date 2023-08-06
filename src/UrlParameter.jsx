@@ -11,8 +11,6 @@ export const UrlParameter = () => {
     <div>
       <h1>URL Parameterページです</h1>
       <p>パラメータは{id}です</p>
-      {/* 以下のように、 JSで用意してくれるメソッドのgetを使うことができる*/}
-      {/* 「name=hogehoge」というURLのnameなどを指定してみることもできる*/}
       <p>クエリパラメータは{query.get("name")}です</p>
     </div>
   );
